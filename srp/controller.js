@@ -1,5 +1,5 @@
-import Order from "./srp/order.js";
-import Item from "./srp/item.js";
+import Order from "./order.js";
+import Item from "./item.js";
 
 // Instancia Item 01
 const item1 = new Item()
