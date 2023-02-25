@@ -8,15 +8,25 @@ class Carrinho {
     	this.status=status;
     	this.valorTotal=valorTotal;
     }
+    itemValido (item = "", vlr = 0) {
+        if (!item || vlr <= 0) {
+            return false
+        }
+        return true
+    }
     // Métodos
     exibirItens () {
         return this.itens;
     }
     adicionarItem (item = "", vlr = 0) {
+        if (!this.itemValido(item, vlr)) return false
+
         this.itens.push({
             item,
             vlr
         });
+
+        return true
     }
     exibirValorTotal () {
         const mock = { vlr: 0 }

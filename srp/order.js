@@ -1,6 +1,6 @@
-import Cart from "./cart.js";
+const Cart = require('./cart.js')
 
-export default class Order {
+module.exports = class Order {
     // Atributos
     constructor(status = "Aberto", amountOrder = 0) {
         this.status = status;

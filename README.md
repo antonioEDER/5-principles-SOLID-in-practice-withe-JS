@@ -2,7 +2,6 @@
 
 ## SOLID:
 - SRP - Single Responsibility Principle (Princípio da Responsabilidade Única).
-- Extra - Implementando testes de unidade automatizados.
 - OCP - Open/Closed Principle (Princípio Aberto/Fechado).
 - LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov).
 - ISP - Interface Segregation Principle (Princípio da Segregação de Interface).
@@ -24,28 +23,37 @@
 - Os códigos são complexos?
 - É frágil a alterações?
 
-> A Vue.js project
+## TDD - Test driven development (Desenvolvimento orientado a testes)
+### Tipos de testes:
+- Unidade. (Componentes, Funções ou Classes) olha para unidades individuais do software.
+- Aceitação do Usuário.
+- Caixa Branca.
+- Caixa Cinza.
+- Caixa Preta.
+- Configuração.
+- Funcional.
+- Carga.
+- Instalação.
+- Interface.
+- Operacional.
+- Performance.
+- Positivo-Negativo.
+- Regressão.
+- Segurança.
+- Stress.
+- Volume.
 
-## Build Setup
+## Lib de Teste Jestjs
+- https://jestjs.io/pt-BR/
 
 ``` bash
-# install dependencies
-npm install
+yarn global add jest
+```
 
-# serve with hot reload at localhost:8080
-npm run dev
+``` bash
+yarn test
+```
 
-# build for production with minification
-npm run build
+## SOLID para Vuejs
+- https://dev.to/deverebor/vuejs-e-os-principios-do-solid-4h0f
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test

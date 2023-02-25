@@ -1,9 +1,19 @@
 {
-  "type": "module",
   "name": "principlessolid",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/antonioEDER/5-principles-SOLID-in-practice-withe-JS.git",
   "author": "eder antonio <antonioeder007@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3"
+  }
 }

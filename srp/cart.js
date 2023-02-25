@@ -1,7 +1,7 @@
 // - SRP - Single Responsibility Principle (Princípio da Responsabilidade Única).
 // Uma classe deve ter apenas um motivo para mudar.
 
-export default class Cart {
+module.exports = class Cart {
     // Atributos
     constructor(itens = []) {
         this.itens = itens;

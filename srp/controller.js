@@ -1,5 +1,5 @@
-import Order from "./order.js";
-import Item from "./item.js";
+const Order = require ('./order.js');
+const Item = require('./item.js')
 
 // Instancia Item 01
 const item1 = new Item()
