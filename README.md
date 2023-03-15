@@ -43,6 +43,9 @@
 - Stress.
 - Volume.
 
+## ETL - EXTRACT, TRANSFORM and LOAD (ETT  – Extrair, Transformar, Carregar)
+
+
 ## Lib de Teste Jestjs
 - https://jestjs.io/pt-BR/
 
