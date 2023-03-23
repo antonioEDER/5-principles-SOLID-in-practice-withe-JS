@@ -1,4 +1,4 @@
-const Arquivo = require('./arquivo.js')
+// const Arquivo = require('./extrator/arquivo.js')
 
 module.exports = class Leitor {
     constructor(diretorio = '', arquivo = '') {
@@ -18,17 +18,14 @@ module.exports = class Leitor {
         this.arquivo = arquivo
     }
     lerArquivo () {
-        const caminho = `${this.getDiretorio()}${this.getArquivo()}`
-        const arquivo = new Arquivo()
-        const tipoArquivo = this.getArquivo().split('.')
+        const caminho = `${this.getDiretorio()}${this.getArquivo()}`;
+        const extensao = this.getArquivo().split('.');
+        const extrator = require(`./extrator/${extensao[1]}.js`);
 
-        if (tipoArquivo[1] === 'txt') {
-            arquivo.lerArquivoTXT(caminho)
-        } else {
-            arquivo.lerArquivoCSV(caminho)
-        }
+        const arquivo = new extrator()        
+        arquivo.lerArquivo(caminho)
 
-        console.log('tipoArquivo', tipoArquivo[1])
+        console.log('extensao', extensao[1])
         console.log('arquivo.getDados()', arquivo.getDados())
     }
 }

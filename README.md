@@ -5,10 +5,15 @@
 - OCP - Open/Closed Principle (Princípio Aberto/Fechado).
 - LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov).
 - ISP - Interface Segregation Principle (Princípio da Segregação de Interface).
-- DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência.
+- DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência).
 
 ## SRP:
 - Uma classe deve ter apenas um motivo para mudar.
+
+## OCP:
+- Uma classe deve estar aberta para extensões mas fechada para modificações.
+- Alteração: Acessar uma classe, adicionar ou modificar metodos.
+- Expansão: Abstração da classes mais sofisticadas na implementação, será extendida e não modificado.
 
 ## Beneficios:
 - Códigos fáceis de manters.
@@ -44,7 +49,6 @@
 - Volume.
 
 ## ETL - EXTRACT, TRANSFORM and LOAD (ETT  – Extrair, Transformar, Carregar)
-
 
 ## Lib de Teste Jestjs
 - https://jestjs.io/pt-BR/
