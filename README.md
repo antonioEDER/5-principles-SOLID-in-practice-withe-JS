@@ -15,6 +15,13 @@
 - Alteração: Acessar uma classe, adicionar ou modificar metodos.
 - Expansão: Abstração da classes mais sofisticadas na implementação, será extendida e não modificado.
 
+## LSP:
+- Princípio de Substituição de Liskov.
+- Uma classe filha deve ser usada no lugar da classe pai sem conter erros.
+- Polimorfismo de classes.
+- As classes filhos(SubClasses) tevem ser capazes de substituir as classes pai(SuperClasses).
+- Ficar atento as tipagens forte de comportamentos.
+
 ## Beneficios:
 - Códigos fáceis de manters.
 - Adaptaveis e Ajustaveis.
