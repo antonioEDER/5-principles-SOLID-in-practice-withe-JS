@@ -22,6 +22,16 @@
 - As classes filhos(SubClasses) tevem ser capazes de substituir as classes pai(SuperClasses).
 - Ficar atento as tipagens forte de comportamentos.
 
+## ISP:
+- Princípio da Segregação de Interface
+
+## DIP:
+- Princípio da Inversão de Dependência
+- Modulos de alto nivel não podem depender de modulos de baixo nivel.
+- Todos os modulos devem depender de abstrações.
+- Abstração não devem depender de detalhes.
+- Detalhes devem depender de Abstração.
+
 ## Beneficios:
 - Códigos fáceis de manters.
 - Adaptaveis e Ajustaveis.
